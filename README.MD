@@ -9,14 +9,15 @@ I implemented the ASCII Studio program, covering both Task 1 and Task 2.
 
 To start the program, type the following command in your terminal when in the program's directory:
 >pip3 install PIL
+
 >python3 ascii_art_studio.py
 
 If successful, you will be greeted with these prompts:
->Run file and type help for commands.
+
 >Welcome to ASCII Art Studio!
 >AAS Command Input:
 
-As the user, you can input commands. For example, if you are unsure what to input, type help when prompted and hit enter:
+As the user, you can input commands. If you are unsure what to input, type help when prompted and hit enter:
 >AAS Command Input: help
 
 This will display:
