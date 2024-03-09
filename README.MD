@@ -38,9 +38,11 @@ Or you can simply get going with commands like:
 
 >load image stadshuset.jpg as hus
 
->info
-
 >render
+
+>set slalom width 100
+
+>render slalom
 
 ## 3. Issues: Testing
 
