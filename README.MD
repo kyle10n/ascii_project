@@ -1,6 +1,6 @@
 # Introduction to ASCII Walkthrough
 
-## Frequently Asked Questions
+## 1. Frequently Asked Questions
 
 1. Which program and task(s) you have implemented.
 I implemented the ASCII Studio program, covering both Task 1 and Task 2.
@@ -15,12 +15,14 @@ To start the program, type the following command in your terminal when in the pr
 If successful, you will be greeted with these prompts:
 
 >Welcome to ASCII Art Studio!
+
 >AAS Command Input:
 
 As the user, you can input commands. If you are unsure what to input, type help when prompted and hit enter:
 >AAS Command Input: help
 
 This will display:
+
 Help Commands:
 1. load – load has two sub commands
 
@@ -40,14 +42,15 @@ Or you can simply get going with commands like:
 
 >render
 
-## 3 Issues: Testing
+## 3. Issues: Testing
 
-I dont know how to write better unit tests...
+I dont know how to write better unit tests...and I don't know how to actually test that the image matches the rendering.
 
 
 # Reflections on Code Quality
 
 Code design
+
 I used object orientation to create three modules:
 
 1. CommandHandler
