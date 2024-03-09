@@ -1,0 +1,2 @@
+#The only required external library. The rest are built in.
+PIL >= 10.2.0
