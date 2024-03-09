@@ -44,6 +44,10 @@ Or you can simply get going with commands like:
 
 >render slalom
 
+>set hus width 200
+
+>render hus
+
 ## 3. Issues: Testing
 
 I dont know how to write better unit tests...and I don't know how to actually test that the image matches the rendering.
