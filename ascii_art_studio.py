@@ -135,7 +135,7 @@ class ASCIIArtStudio:
         self.current_image = image
         print(f"'{alias}' set to {new_contrast}.")
 
-    def list_images_info(self):
+    def studio_info(self):
         """Print information about all images in the studio, including the current image."""
         print("=== Current session ===")
         if self.current_image:
@@ -366,7 +366,6 @@ class CommandHandler:
         self.commands = {
             "load": self.load,
             "save": self.save,
-            "info": self.studio.list_images_info,
             "render": self.render,
             "set": self.set_image_property,
             "help": self.show_help,
@@ -394,9 +393,6 @@ class CommandHandler:
             self.studio.save_session(args[1])
         else:
             print("Invalid save command. Use 'help' for more information.")
-
-    def list_images_info(self):
-        self.studio.list_images_info(self)
 
     def render(self, args):
         if len(args) == 0:
@@ -465,9 +461,13 @@ class CommandHandler:
         command = command_args[0].lower()
         args = command_args[1:]
 
-        if command in self.commands:
+        if command == "info":
+            self.studio.studio_info()
+
+        elif command in self.commands:
             try:
                 self.commands[command](args)
+
             except Exception as e:
                 print(f"Error executing {command}: {e}")
         else:
