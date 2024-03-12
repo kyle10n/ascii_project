@@ -72,7 +72,7 @@ The way I handled the input from the user through a while True loop to allow for
 
 Which algorithms are used and why?
 
-I used algorithmic thinking and came up with three key ideas. First, I would need characters that would represent a very light pixel to a spectrum of characters that would represent a very dark pixel. I would also need to get the brightness of each exact pixel. And lastly, I would need to, for each pixel across an image, use that pixel and match the brightness with a specific character. This algorithmic thinking led me to writing the convert_to_ascii() function. Where the exact steps and algorithm is written in code. This thinking is also reflected in the code design explained above. Where those three key ideas became three modules of code. However, in trying to keep the aspect ratio I used the font faces: Menlo with a 0.6 correction factor.
+I used algorithmic thinking and came up with three key ideas. First, I would need characters that would represent a very light pixel to a spectrum of characters that would represent a very dark pixel. I would also need to get the brightness of each exact pixel. And lastly, I would need to, for each pixel across an image, use that pixel and match the brightness with a specific character. This algorithmic thinking led me to writing the convert_to_ascii() function. Where the exact steps and algorithm is written in code. This thinking is also reflected in the code design explained above. Where those ideas became three modules of code. However, in trying to keep the aspect ratio I used the font faces: Menlo with a 0.6 correction factor.
 
 Which data structures are used and why?
 
