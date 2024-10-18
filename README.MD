@@ -1,11 +1,6 @@
 # Introduction to ASCII Walkthrough
 
-## 1. Frequently Asked Questions
-
-1. Which program and task(s) you have implemented.
-I implemented the ASCII Studio program, covering both Task 1 and Task 2.
-
-## 2. How the program is started and used.
+## How the program is started and used.
 
 To start the program, type the following command in your terminal when in the program's directory:
 >pip3 install PIL
@@ -48,7 +43,7 @@ Or you can simply get going with commands like:
 
 >render hus
 
-## 3. Issues: Testing
+Issues: Testing
 
 I dont know how to write better unit tests...and I don't know how to actually test that the image matches the rendering.
 
